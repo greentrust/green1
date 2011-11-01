@@ -54,6 +54,10 @@ class Zend_Debug
         
         //May be it's okay;
         
+        if (false) {
+        	$k =4;
+        }
+        //Added comment
         return self::$_sapi;
     }
 
