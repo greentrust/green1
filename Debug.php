@@ -72,6 +72,8 @@ class Zend_Debug
     public static function setSapi($sapi)
     {
         self::$_sapi = $sapi;
+        
+        //Added by 778
     }
 
     /**
