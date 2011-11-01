@@ -58,7 +58,7 @@ class Zend_Debug
         	$k =4;
         }
         
-        //Added by ATH-800
+        //Added by ATH-800 done with great
         return self::$_sapi;
     }
 
