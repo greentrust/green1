@@ -57,7 +57,8 @@ class Zend_Debug
         if (false) {
         	$k =4;
         }
-        //Added comment
+        
+        //Added by ATH-800
         return self::$_sapi;
     }
 
