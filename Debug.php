@@ -47,6 +47,13 @@ class Zend_Debug
         if (self::$_sapi === null) {
             self::$_sapi = PHP_SAPI;
         }
+        
+        if (true) {
+        	$d = 3; //Added by Shoeb cse
+        }
+        
+        //May be it's okay;
+        
         return self::$_sapi;
     }
 
